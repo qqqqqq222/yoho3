@@ -1,0 +1,180 @@
+
+@charset "UTF-8";
+.hot,.good,.newqq,.cloth,#nownew{ width: 1153px;margin: 0 auto; }
+#wrap_fashion,#wrap_nownew,#wrap_list{ width: 100%; }
+
+/* ============= 商品列表 ============= */
+
+#wrap_list{ height: auto; }
+
+/* ===== 人气单品 ====== */
+.hot{ height: auto;min-height: 200px;padding-top: 30px; }
+.hot h2,.good h2,.newqq h2,#wrap_fashion h2,#nownew h2{
+    width: 300px;height: 32px;
+    border: 1px solid #333;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 32px;
+}
+#show li{
+    float: left;
+    margin-left: 5px;
+}
+/* ===== 优选品牌 ====== */
+.good{
+    height: auto;
+    min-height: 200px;
+    padding-top: 30px;
+}
+.slide_show{
+    width: 1134px; height: 300px;
+    background: #333;
+    overflow: hidden;
+    margin:0 auto;
+}
+#slide{
+    height: 260px;
+    margin: 50px 50px 0;
+    overflow: hidden;
+}
+#slide li{
+    float: left;
+}
+#slide li a{
+    display: block;
+    width: 378px;
+    height: 175px;
+}
+
+.eeee{
+    position: relative;
+    width: 1153px;
+    height:300px;
+    clear: both;
+    margin: 0 auto;
+}
+.eee ul li a img:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.wula{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+}
+.zindex100{
+    z-index: 100;
+}
+.wula li{
+    width: 185px;
+    height: 86px;
+    float: left;
+    margin: 5px 5px 0 0;
+}
+
+.wula .btnwula{
+    line-height: 38px;
+    font-size: 38px;
+    position: absolute;
+    cursor: pointer;
+}
+.wula .pleft{
+    top: 10px;
+    left: 50px;
+}
+.wula .pright{
+    top: 39px;
+    left: 105px;
+}
+/* ===== 最新速报 ====== */
+.newqq{ height: auto;min-height: 200px;clear: both; }
+#liiii{
+    width: 570px;
+    height: 506px;
+    float: left;
+    margin-left: 5px;
+}
+#liiii li{
+    float: left;
+    margin: 3px 5px 0 0;
+}
+
+/* ******** 潮流服饰 ****** */
+.cloth{
+    position: relative;
+}
+#wrap_fashion ul{
+    height: 248px;
+    margin-bottom: 10px;
+}
+#wrap_fashion .cloth ul li{
+    float: left;
+    margin-right: 5px;
+}
+#wrap_fashion ul li a{
+    display: block;
+}
+#wrap_fashion h2,#nownew h2{
+    clear: both;
+}
+.mmore{
+    font-size: 16px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+#two .leader ul,#two2 .leader ul,#two3 .leader ul,#two4 .leader ul{
+    width: 185px;
+    height:228px;
+    padding: 10px 0;
+    background-color: #eee;
+}
+#two .leader ul li,#two2 .leader ul li,#two3 .leader ul li,#two4 .leader ul li{
+    margin-right: 0;
+    float: left;
+    width: 92px;
+}
+#two .leader ul li a,#two2 .leader ul li a,#two3 .leader ul li a,#two4 .leader ul li a{
+    float: left;
+    width: 92px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #333;
+}
+
+#wrap_fashion #three,#wrap_fashion #three2,#wrap_fashion #three3,#wrap_fashion #three4{
+    height: 298px;
+}
+
+/*  ******** 最新上架 ******  */
+
+#nownew dl{
+    float: left;
+    margin: 20px 7px 10px 0;
+    transition: transform 2s;
+}
+#nownew dl dt{
+    width: 220px;
+    height: 295px;
+    overflow: hidden;
+}
+#nownew dl dt img{
+    width: 220px;
+    height: 295px;
+    transition: all 2s;
+}
+#nownew dl dd{
+    padding: 30px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+}
+#nownew dl dt img:hover{
+    transform:scale(1.2);
+}
+#nownew dl:hover{
+    box-shadow: 2px 2px 3px 2px #ccc;
+}

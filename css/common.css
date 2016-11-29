@@ -1,0 +1,39 @@
+*{ margin:0;padding:0; }
+ul,ol,li{ list-style: none; }
+body{ font: 12px/1.5 "微软雅黑"; }
+a{ text-decoration: none;color: #666; }
+h1,h2,h3,h4,b{ font-weight: normal; }
+img{ border: none; }
+
+.left{ float: left; }
+.right{ float: right; }
+.clear{
+    clear:both;
+    display:block;
+    font-size:0;
+    height:0;
+    line-height:0;
+    overflow:hidden;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

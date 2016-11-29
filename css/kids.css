@@ -1,0 +1,130 @@
+#wrap_nav{ 
+	background-color: #7bd3f9 !important; 
+}
+#tab .btn{ 
+	background: #7bd3f9 url(../images/icon/search02.jpg) no-repeat center; 
+}
+#tab .text{
+	height: 32px !important;
+	border:1px solid #7bd3f9;
+}
+
+.lee{
+	width: 1153px;
+	height: 692px;
+	margin: 0 auto;
+	
+}
+.lee h2,.cloth h2,.boykids h2,.girlkids h2,.access h2,.newarr h2{
+	clear: both;
+	width: 300px;height: 32px;
+	border: 1px solid #333;
+	margin: 50px auto;
+	text-align: center;
+	line-height: 32px; 
+}
+.slide_show{
+	position: relative;
+	width: 990px;
+	height: 430px;
+	overflow: hidden;
+}
+.wrap01{
+	padding: 90px;
+	width: 977px;
+	height: 430px;
+	background-color: #8ae6e0; 
+}
+.slide_show #slide{
+	height: 430px;
+	position:absolute;
+	top: 0;
+	left:0;
+}
+.slide_show #slide li{
+	float: left;
+}
+.slide_show li a{
+	display: block;
+	width: 320px;
+	height: 430px;
+}
+
+/* ****** 列表 ***** */
+.cloth{
+	width: 1153px;
+	margin: 0 auto;
+	height: 600px;
+	position: relative;
+}
+#three{
+	width: 960px;
+}
+#two,#three{
+	height: 506px;
+	margin-bottom: 10px;
+}
+#wrap_fashion ul li a{
+	display: block;
+}
+
+.mmore{
+	font-size: 16px;
+	position: absolute;
+	top: 5px;
+	right: 20px;
+}
+#two .leader ul{
+	width: 185px;
+	height:228px;
+	padding: 10px 0;
+	background-color: #eee;
+}
+#two .leader ul li{
+	margin-right: 0;
+	float: left;
+	width: 92px;
+}
+#two .leader ul li a{
+	float: left;
+	width: 92px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	color: #333;
+}
+
+#three li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+
+#wrap_boykids,#wrap_girlkids,#wrap_access,#wrap_newarr{
+	width: 100%;
+	height: auto;
+}
+.boykids,.girlkids,.access,.newarr{
+	margin: 0 auto;
+	width: 1153px;
+	height: auto;
+}
+
+.boykids dl,.girlkids dl,.access dl,.newarr dl{
+	float: left;
+	margin: 5px 5px 5px 0;
+}
+.boykids dd,.girlkids dd,.access dd,.newarr dd{
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.load2{
+	clear: both;
+}
+
+

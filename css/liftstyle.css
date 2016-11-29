@@ -1,0 +1,174 @@
+
+#wrap_list,#wrap_hotter,#wrap_newest{
+	width: 100%;
+}
+
+#wrap_nav{ 
+	background-color: #5e4b3c !important; 
+}
+#tab .btn{ 
+	background: #5e4b3c url(../images/icon/search04.jpg) no-repeat center; 
+}
+#tab .text{
+	height: 32px !important;
+	border:1px solid #5e4b3c;
+}
+
+.pic h2,.lee h2,.cat h2,.hotter h2,.newest h2{
+	width: 300px;height: 32px;
+	border: 1px solid #333;
+	margin: 50px auto;
+	text-align: center;
+	line-height: 32px; 
+}
+/* 列表 */
+
+.cat,.hotter,.newest{ 
+	width: 1153px;
+	height: auto;
+	margin: 0 auto; 
+}
+
+.cat h2{ 
+	margin: 70px  0 50px 35%;
+	float: left;
+ }
+.cat_nav{ 
+	margin: 70px 10px 50px 0;
+	float: right; 
+}
+.cat_nav li{ 
+	font-size:14px;
+	float: left;
+}
+.cat_nav li:hover{
+	text-decoration: underline;
+}
+.cat_nav li a{
+	padding: 0 15px;
+	border-right: 1px solid #999; 
+}
+.cat_nav li.last a{
+	border: none;
+}
+
+#gory li,#gory2 li,#gory3 li,#gory4 li,#newest dl,#hotter dl{
+	margin: 5px 5px 0 0;
+	float: left;
+}
+#gory,#gory2,#gory3,#gory4{
+	clear: both;
+}
+#newest dt img{
+	width: 222px;
+	height: 298px;
+}
+
+#newest dl dd,#hotter dl dd{
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.load2{
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 手风琴 */
+.pic{
+	width:1100px;
+	height:530px;
+	margin:70px auto 0;
+}
+.pic ul li{
+	width:100px;
+	height:400px;
+	float:left;
+	border-right:5px solid #fff;
+}
+.pic ul li a{
+	display: block;
+	width:1100px;height:430px;
+}
+.pic h2,.lee h2{
+	width: 300px;height: 32px;
+	border: 1px solid #333;
+	margin: 50px auto;
+	text-align: center;
+	line-height: 32px; 
+}
+
+.pic .l1{background-image:url(../images/piano/6.jpg);}
+.pic .l2{background-image:url(../images/piano/7.jpg);}
+.pic .l3{background-image:url(../images/piano/8.jpg);}
+.pic .l4{background-image:url(../images/piano/9.jpg);}
+.pic .l5{background-image:url(../images/piano/0.jpg);width:650px;}
+
+/* 轮播 */
+.lee{
+	width: 1153px;
+	height: 692px;
+	margin: 0 auto;
+	
+}
+.slide_show{
+	position: relative;
+	width: 990px;
+	height: 430px;
+	overflow: hidden;
+}
+.wrap01{
+	padding: 90px;
+	width: 977px;
+	height: 430px;
+	background-color: #8ae6e0; 
+}
+.slide_show #slide{
+	height: 430px;
+	position:absolute;
+	top: 0;
+	left:0;
+}
+.slide_show #slide li{
+	float: left;
+}
+.slide_show li a{
+	display: block;
+	width: 320px;
+	height: 430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

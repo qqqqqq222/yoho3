@@ -1,0 +1,159 @@
+#wrap_nav{ 
+	background-color: #ff88ae !important; 
+}
+#tab .btn{ 
+	background: #ff88ae url(../images/icon/search03.jpg) no-repeat center; 
+}
+#tab .text{
+	height: 32px !important;
+	border:1px solid #ff88ae;
+}
+
+/* ****** 列表 ***** */
+.cloth{
+	width: 1153px;
+	margin: 0 auto;
+	height: 600px;
+	position: relative;
+}
+#two,#three,#two2,#three2,#two3,#three3,#two4,#three4{
+	height: 506px;
+	margin-bottom: 10px;
+}
+#wrap_fashion .cloth #one li,#wrap_fashion .cloth #one2 li,#wrap_fashion .cloth #one3 li,#wrap_fashion .cloth #one4 li{
+	float: none;
+	margin-right: 5px;
+}
+#wrap_fashion ul li a{
+	display: block;
+}
+#wrap_fashion h2{ 
+	clear: both;
+}
+.mmore{
+	font-size: 16px;
+	position: absolute;
+	top: 5px;
+	right: 20px;
+}
+#two .leader ul,#two2 .leader ul,#two3 .leader ul,#two4 .leader ul{
+	width: 185px;
+	height:228px;
+	padding: 10px 0;
+	background-color: #eee;
+}
+#two .leader ul li,#two2 .leader ul li,#two3 .leader ul li,#two4 .leader ul li{
+	margin-right: 0;
+	float: left;
+	width: 92px;
+}
+#two .leader ul li a,#two2 .leader ul li a,#two3 .leader ul li a,#two4 .leader ul li a{
+	float: left;
+	width: 92px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	color: #333;
+}
+
+#three li,#three2 li,#three3 li,#three4 li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+#three,#three2,#three3,#three4{
+	width: 960px;
+}
+
+
+/* <!-- 人气单品TOP100 --> */
+
+#wrap_hotter,#wrap_newest{
+	width: 100%;
+}
+.hotter,.newest{ 
+	width: 1153px;
+	height: auto;
+	margin: 0 auto; 
+}
+#newest dl,#hotter dl{
+	margin: 5px 5px 0 0;
+	float: left;
+}
+
+#newest dl dd,#hotter dl dd{
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.load2{
+	clear: both;
+}
+
+.pic{
+	width:1100px;
+	height:530px;
+	margin:70px auto 0;
+}
+.pic ul li{
+	width:100px;
+	height:400px;
+	float:left;
+	border-right:5px solid #fff;
+}
+.pic ul li a{
+	display: block;
+	width:1100px;height:430px;
+}
+.pic h2,.lee h2,.cloth h2,.hotter h2,.newest h2{
+	width: 300px;height: 32px;
+	border: 1px solid #333;
+	margin: 50px auto;
+	text-align: center;
+	line-height: 32px; 
+}
+
+.pic .l1{background-image:url(../images/piano/1.jpg);}
+.pic .l2{background-image:url(../images/piano/2.jpg);}
+.pic .l3{background-image:url(../images/piano/3.jpg);}
+.pic .l4{background-image:url(../images/piano/4.jpg);}
+.pic .l5{background-image:url(../images/piano/5.jpg);width:650px;}
+
+
+.lee{
+	width: 1153px;
+	height: 692px;
+	margin: 0 auto;
+	
+}
+.slide_show{
+	position: relative;
+	width: 990px;
+	height: 430px;
+	overflow: hidden;
+}
+.wrap01{
+	padding: 90px;
+	width: 977px;
+	height: 430px;
+	background-color: #8ae6e0; 
+}
+.slide_show #slide{
+	height: 430px;
+	position:absolute;
+	top: 0;
+	left:0;
+}
+.slide_show #slide li{
+	float: left;
+}
+.slide_show li a{
+	display: block;
+	width: 320px;
+	height: 430px;
+}
+
+
+
